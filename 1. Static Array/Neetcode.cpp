@@ -36,6 +36,7 @@ void removingEnd(int arr[], int length) {
   }
 }
 
+// ! Not Understanding the following concept
 void insertMiddle(int arr[], int length, int index, int value) {
   for (int i = length - 1; i >= index; i--) {
     arr[i + 1] = arr[i];
